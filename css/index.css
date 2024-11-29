@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+p:before{
+    content: attr(type);
+    display: block;
+    margin: 3px;
+    font-size: 17px;
+    color: #5a5a5a;
+    font-family: 'Times New Roman', Times, serif;
+ }
+  
+ #textoJ{
+    width: 150px;
+    height: 150px;
+ }
+
+ .formulario{
+    background-color: bisque;
+    padding: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+ }
+
+ .copia-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+ }
+
+ .json-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+ }
+
+ h1{
+    text-align: center;
+ }
+
+ button{
+    background-color: rgb(220, 238, 232);
+    border-radius: 3px;
+ }
